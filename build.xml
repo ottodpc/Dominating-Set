@@ -14,7 +14,7 @@
         description="compile the source " >
     <javac debug="true" classpath="${build}/:jars/*" srcdir="${src}" excludes="" destdir="${build}"/>
   </target>
-  
+
   <target name="rand" depends="compile"
           description="generate examples">
     <echo>================ Run Object Main ================</echo>
